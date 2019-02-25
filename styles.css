@@ -1,0 +1,30 @@
+form {
+  display: grid;
+  grid-template-columns: 155px 165px;
+  width: 320px;
+  margin: auto;
+}
+
+label {
+  /* text-align: right; */
+}
+
+.invalid {
+  border: solid red 2px;
+}
+
+span {
+  visibility: hidden;
+  color: white;
+  background-color: #900;
+  height: 19px;
+  grid-column: span 2;
+}
+
+button {
+  grid-column: 2;
+}
+
+.high_five {
+  display: none;
+}
